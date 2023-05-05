@@ -27,13 +27,13 @@
 
 
 
-ul li{
+.posts ul li{
     list-style: none;
     
 
 }
 
-ul{
+.posts ul{
     display: flex;
     margin: 0;
     border-bottom: 1px solid #C1C5CE;
@@ -44,19 +44,19 @@ ul{
     padding: 1rem 0;
 }
 
-.box{
+.posts .box{
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container{
+.posts .container{
     position:relative;
     
 }
 
-.container .wrap{
+.posts .container .wrap{
     width: 100%;
 }
 
@@ -80,7 +80,7 @@ ul{
   backdrop-filter: blur(3px);
 }
 
-.row{
+.posts .row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -90,7 +90,7 @@ ul{
 
 
 
-h2{
+.posts h2{
     margin:1rem 0;
     text-decoration: underline;
     
