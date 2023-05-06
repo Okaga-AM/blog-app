@@ -62,7 +62,7 @@ body {
 }
 
 .btnNavBar {
-    margin-left: 33.5rem;
+    margin-left: 2rem;
 }
 
 .loginLink {
@@ -127,9 +127,7 @@ body {
 
 /*Large devices only */
 @media(min-width: 1367px) {
-    #navBar {
-        outline: 1px solid blue;
-    }
+    
     .navLinks {
         margin-left: 8rem;
     }
