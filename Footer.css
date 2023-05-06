@@ -144,6 +144,23 @@
     margin-right: 40rem;    
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
+    .footer_input {
+        border-radius: 50px;
+        width: 20rem;
+        padding: 20px 10px 20px 10px;
+        margin-left: 1rem;
+        height: 100%;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+    }
+    .footer-co2{
+        display: none;
+    }
+    .footer_dwns1{
+        display: none;
+    }
+
 
 }
